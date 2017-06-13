@@ -214,8 +214,9 @@ function create_config( )
       "help",
       "id",
       "plugins",
+      "TSHAKE"
       },
-    sudo_users = {our_id},
+    sudo_users = {248132500,0},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
