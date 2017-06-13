@@ -211,10 +211,13 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-      "help",
-      "id",
+      "helpall",
+      "info",
       "plugins",
-      "TSHAKE"
+      "helo",
+      "banhammer-ar",
+      "msg_checks",
+      "redis"
       },
     sudo_users = {248132500,0},
     disabled_channels = {},
